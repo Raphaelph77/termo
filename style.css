@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .letter {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 3px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    text-transform: uppercase;
+  }
+  .correct { background-color: #6aaa64; color: white; }
+  .present { background-color: #c9b458; color: white; }
+  .absent { background-color: #787c7e; color: white; }
+  .row { margin-bottom: 10px; }
